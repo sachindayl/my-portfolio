@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule, Routes } from '@angular/router';
-import { AlertModule } from 'ng2-bootstrap';
 
 import { AppComponent } from './app.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
@@ -22,7 +21,6 @@ const appRoutes: Routes = [
     ResumeComponent
   ],
   imports: [
-    AlertModule.forRoot(),
     RouterModule.forRoot(appRoutes),
     BrowserModule,
     FormsModule,

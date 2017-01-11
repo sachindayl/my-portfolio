@@ -6,19 +6,24 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { MainpageComponent } from './mainpage/mainpage.component';
-import { ResumeComponent } from './resume/resume.component';
+import { MainpageComponent } from './components/mainpage/mainpage.component';
+import { ResumeComponent } from './components/resume/resume.component';
+import { WorkComponent } from './components/work/work.component';
+import { AboutComponent } from './components/about/about.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainpageComponent },
-  { path: 'app-resume', component: ResumeComponent }
+  { path: 'app-resume', component: ResumeComponent },
+  { path: 'app-about', component: AboutComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     MainpageComponent,
-    ResumeComponent
+    ResumeComponent,
+    WorkComponent,
+    AboutComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

@@ -15,6 +15,7 @@ import { AboutComponent } from './components/about/about.component';
 const appRoutes: Routes = [
   { path: '', component: MainpageComponent },
   { path: 'app-resume', component: ResumeComponent },
+  { path: 'app-work', component: WorkComponent },
   { path: 'app-about', component: AboutComponent }
 ];
 

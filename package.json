@@ -27,6 +27,8 @@
     "@angular/platform-server": "^4.0.0",
     "@angular/router": "^4.0.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.17",
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.12",
     "bootstrap": "3.3.7",
     "core-js": "^2.4.1",
     "express": "^4.14.0",

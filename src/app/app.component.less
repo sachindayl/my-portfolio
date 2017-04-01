@@ -1,10 +1,18 @@
 @lightsteelblue: #B0C4DE;
 @steelblue: #4682B4;
 @black: #000;
+@arsenic: #3B444B;
+@colombiablue: #C4D8E2;
+
+body{
+  background-image: url("/assets/images/repeat.jpg");
+  background-attachment: fixed;
+  font-size: 62.5%;
+}
 
 #name-header{
-  background-color: @lightsteelblue;
-  
+  background-color: @colombiablue;
+
 }
 
 #sach-image{
@@ -13,10 +21,37 @@
   border-color: @steelblue;
 }
 
+#soft-dev{
+  color: @arsenic;
+}
+
 h1{
+  font-family: 'Lobster', cursive;
+}
+
+h2{
   font-family: 'Lobster', cursive;
 }
 
 h3{
   font-family: 'Lobster', cursive;
+}
+
+button{
+  font-family: 'Lobster', cursive;
+}
+
+.btn-home{
+  font-family: 'Lobster', cursive;
+  margin-top: 7px;
+}
+
+.navbar-default .navbar-brand {
+  color: @black;
+  font-size: 3.5em;
+}
+
+.btn:focus,.btn:active, .btn:hover {
+   outline: none !important;
+   text-decoration: none;
 }

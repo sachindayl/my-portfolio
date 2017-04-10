@@ -3,55 +3,80 @@
 @black: #000;
 @arsenic: #3B444B;
 @colombiablue: #C4D8E2;
+@prussianblue: #0B3C5D;
+@white: #FFF;
+@metallicseaweed: #087E8B;
+@darkmagenta: #A11692;
 
-body{
+body {
   background-image: url("/assets/images/repeat.jpg");
   background-attachment: fixed;
   font-size: 62.5%;
 }
 
-#name-header{
+#name-header {
   background-color: @colombiablue;
-
 }
 
-#sach-image{
+#sach-image {
   border-style: solid;
   border-width: medium;
   border-color: @steelblue;
 }
 
-#soft-dev{
+#soft-dev {
   color: @arsenic;
-}
-
-h1{
   font-family: 'Lobster', cursive;
 }
 
-h2{
+.navbar {
+  background-color: @prussianblue;
+}
+
+#my-name {
   font-family: 'Lobster', cursive;
 }
 
-h3{
-  font-family: 'Lobster', cursive;
+h2 {
+  font-family: 'Roboto', sans-serif;
 }
 
-button{
-  font-family: 'Lobster', cursive;
+h3 {
+  font-family: 'Roboto', sans-serif;
 }
 
-.btn-home{
-  font-family: 'Lobster', cursive;
-  margin-top: 7px;
+button {
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-default .navbar-brand {
-  color: @black;
+  color: @white;
+  font-family: 'Lobster', cursive;
+  margin-top: 7px;
   font-size: 3.5em;
 }
 
-.btn:focus,.btn:active, .btn:hover {
-   outline: none !important;
-   text-decoration: none;
+.navbar-default .navbar-btn {
+  color: @white;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar-default .navbar-header .btn:focus,
+.navbar-default .navbar-header .btn:hover,
+.navbar-default .navbar-header.btn:active {
+  outline: none !important;
+  color: @darkmagenta;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-header .btn-home:hover {
+  color: @darkmagenta;
+}
+
+.footer {
+  font-size: 3.5em;
+  padding-top: 7px;
+  font-family: 'Lobster', cursive;
+  background: @prussianblue;
+  color: @white;
 }

@@ -1,12 +1,12 @@
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container navbar-title">
     <div class="navbar-header pull-left">
       <a class="btn-home navbar-brand" href="/" role="button">Home</a>
     </div>
-    <div class="navbar-header pull-right">
-      <button routerLink="/app-resume" type="button" class="btn btn-link btn-lg navbar-btn navi-btns">Resume</button>
-      <button routerLink="/app-work" type="button" class="btn btn-link btn-lg navbar-btn navi-btns">Projects</button>
-      <button routerLink="/app-about" type="button" class="btn btn-link btn-lg navbar-btn navi-btns">About</button>
+    <div class="navbar-header pull-right" id="navi-btns">
+      <button routerLink="/app-resume" type="button" class="btn btn-link btn-lg navbar-btn">Resume</button>
+      <button routerLink="/app-work" type="button" class="btn btn-link btn-lg navbar-btn">Projects</button>
+      <button routerLink="/app-about" type="button" class="btn btn-link btn-lg navbar-btn">About</button>
     </div>
   </div>
 </nav>
@@ -18,7 +18,7 @@
     </div>
 
     <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 text-center">
-      <h1>Sachinda Liyanaarachchi</h1>
+      <h1 id="my-name">Sachinda Liyanaarachchi</h1>
       <h3><small id="soft-dev">Software Developer</small></h3>
       <a href="https://www.linkedin.com/in/sachindayl" class="btn btn-sm" target="_blank"><img src="/assets/images/linkedin-3-48.png" alt="Linkedin" style="width:32px;height:32px;border:0;"></a>
       <a href="https://www.twitter.com/sachinda27" class="btn btn-sm" target="_blank"><img src="/assets/images/twitter-48.png" alt="Twitter" style="width:32px;height:32px;border:0;"></a>
@@ -27,3 +27,11 @@
 </div>
 
 <router-outlet></router-outlet>
+
+<footer class="footer">
+      <div class="container">
+        <h5>
+          Copyright 2017
+        </h5>
+      </div>
+    </footer>
